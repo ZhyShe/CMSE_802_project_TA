@@ -25,4 +25,11 @@ This repository contains my project for CMSE 802.
    cat ~/.ssh/id_rsa.pub
    git remote set-url origin git@github.com:YOUR_USERNAME/cmse802_project.git
 
-   
+5. Useful Command
+   ```bash
+   git status
+   git log --oneline --graph
+   git checkout COMMIT_ID
+   git reset --hard COMMIT_ID
+   git diff HEAD~1  # Compare with previous commit
+   git diff COMMIT_ID COMMIT_ID  # Compare two specific commits   
