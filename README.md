@@ -14,6 +14,7 @@ This repository contains my project for CMSE 802.
    
 3. Add and Push
    ```bash
+   git pull origin main --rebase
    git add .gitignore
    git commit -m "Added .gitignore for Python and Jupyter"
    git push origin main
